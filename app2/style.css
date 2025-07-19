@@ -194,3 +194,72 @@ img {
     flex-direction: column;
     gap: 30px;
 }
+
+.herogrid-center{
+    display: flex;
+    align-items: center;
+}
+
+
+.content-wrapper {
+    width: 100%;
+    height: 630px;
+    background-image: url(images/hero/productbg.png);
+    background-position: 20% 90%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.product-img{
+    width: auto;
+    height: 520px;
+}
+
+.div-block4{
+    position: relative;
+}
+.image-4 {
+    position: absolute;
+    left: 13.5%;
+    top: auto;
+    right: auto;
+    bottom: -12%;
+    width: 370px;
+}
+
+.tab {
+    margin-top: 0px;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 8px;
+    padding: 0px;
+    border-radius: 45px;
+    transition: all 200ms ease;
+    background-color: transparent;
+}
+
+.tab.w--current {
+    box-shadow: 1px 3px 0 0.5px #2b152a, inset 0 0 0 0.64px #2b152a;
+}
+
+.tab._1{
+    background-color: #6e7cff;
+}
+.tab._2{
+    background-color: #0d756b;
+}
+.tab._3{
+    background-color: #fe5e35;
+}
+.tab._4{
+    background-color: #eac212;
+}
+
+.tab-content{
+    display: none;
+    text-align: center;
+}
+
+.tab-content.active{
+    display: block;
+}
+
