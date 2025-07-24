@@ -351,7 +351,47 @@ img {
 
 .bag-feature-header{
     position: relative;
+    padding-bottom: 60px;
 }
+
+.subheading-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.heading3{
+    color: #040c0c;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+}
+.heading2{
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.heading-wrapper{
+    position: relative;
+    display: flex;
+    margin-bottom: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-frame {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 33%;
+    bottom: 20%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+
 
 .bag-feature-container{
     position: relative;
