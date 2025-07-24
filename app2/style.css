@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Satoshi, sans-serif;
+    font-family: sans-serif;
     color: black;
 }
 
@@ -120,7 +120,7 @@ img {
 .header1{
     font-size: 54px;
     font-weight: 900;
-    line-height: 1.2;
+    line-height: 1.5;
     margin-bottom: 25px;
     background-image: none;
     background-position: 0px 0px;
@@ -309,4 +309,33 @@ img {
 .tab-content.active{
     display: block;
 }
+
+/* =================================== */
+ /* PARTNER LOGO  */
+/* =================================== */
+.logo-header{
+    font-size: 20px;
+}
+
+.partner-logos{
+    text-align: center;
+    background-image: linear-gradient(180deg, #fffcf1, hsla(0, 0%, 100%, 0));
+}
+
+
+.partner-logos .container{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+    gap: 15px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex: 1 1 auto;
+}
+
 
