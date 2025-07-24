@@ -532,6 +532,10 @@ img {
     text-decoration: none;
 }
 
+.bag-feature-block-wrapper._1{
+    border-color: #3e4dd6;
+}
+
 .bag-feature-block-wrapper{
     width: 534px;
     height: 158px;
@@ -539,9 +543,7 @@ img {
     border-radius: 22px;
 }
 
-.bag-feature-block-wrapper._1{
-    border-color: #3e4dd6;
-}
+
 
 .bag-feature-block-grid{
     display: grid;
@@ -582,4 +584,95 @@ img {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
+}
+
+.bag-feature-container._2{
+    display: flex;
+    background-color: #fe5e35;
+    background-image: url(images/bag-feature/feature-block1-bg.png);
+    background-position: 100% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.bag-feature-details-wrapper._2{
+    padding-left: 70px;
+}
+
+.bag-feature-image-bg._2{
+    background-color: #c04626;
+}
+
+.image7.small._2{
+    left: 46%;
+    top: 25%;
+}
+
+.image7._2{
+    top: 7%;
+}
+
+.floating-review._2 {
+    right: 7%;
+    bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #8f331b;
+}
+
+.bottom-left{
+    position: absolute;
+    left: -1%;
+    top: auto;
+    right: auto;
+    bottom: -1%;
+}
+
+.bottom-right{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -3%;
+    bottom: -2%;
+}
+
+.bag-feature-container._3{
+    display: flex;
+    background-color: #0d756b;
+    background-image: url(images/bag-feature/feature-block1-bg.png);
+    background-position: 0% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.bag-feature-image-bg{
+    width: 358px;
+    height: 324px;
+    border-radius: 20px;
+    background-color: #28958a;
+}
+
+.floating-review._3 {
+    right: 19%;
+    bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #18645d;
+}
+
+.image7.small._3{
+    left: 44%;
+    top: 18%;
+    bottom: auto;
+}
+
+.image7._3{
+    left: 18%;
+    top: 8%;
 }
