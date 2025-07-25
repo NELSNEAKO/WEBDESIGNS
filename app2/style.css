@@ -9,6 +9,11 @@ body{
     color: black;
 }
 
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
 .body {
     font-family: Satoshi, sans-serif;
     color: #040c0c;
@@ -892,4 +897,123 @@ img {
 /* ===================================== */
 /* SECTION 4 */
 /* ===================================== */
+
+.section4{
+    position: relative;
+    padding-top: 140px;
+    padding-bottom: 60px;
+}
+
+.true-companion-body{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.true-companion-image-wrapper{
+    position: relative;
+    width: 50%;
+}
+.true-companion-details-wrapper{
+    width: 50%;
+    padding-right: 60px;
+}
+
+.image39{
+    position: absolute;
+    left: auto;
+    top: -8%;
+    right: -1%;
+    bottom: auto;
+}
+.image40 {
+    position: absolute;
+    left: -7%;
+    top: auto;
+    right: auto;
+    bottom: -8%;
+}
+
+.true-companion-image-bg{
+    width: 560px;
+    height: 582px;
+    border-radius: 36px;
+    background-color: #ffc947;
+}
+
+.image41{
+    margin-top: -52px;
+}
+.image42{
+    position: absolute;
+    left: 44%;
+    top: auto;
+    right: auto;
+    bottom: 0%;
+}
+
+.subheadingwrap{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.companion-heading {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 900;
+}
+
+.image43{
+    margin-bottom: 26px;
+}
+
+.companion-rating-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.companion-star-wrapper{
+    display: flex;
+    flex: 1;
+    grid-column-gap: 3px;
+}
+
+.companion-star-wrapper img{
+    width: 28px;
+    height: 26px;
+}
+
+.review-para {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 140%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.sign-wrapper{
+    margin-bottom: 40px;
+}
+
+.certified-div {
+    display: flex;
+    width: 207px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #00b67a;
+}
+
+.certified-text {
+    color: #fff;
+    font-size: 17px;
+    line-height: 140%;
+}
 
