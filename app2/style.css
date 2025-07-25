@@ -368,6 +368,11 @@ img {
 /* BAG FEATURE  */
 /* ============================== */
 
+.heading2wrap{
+    position: relative;
+    display: inline-block;
+}
+
 .bag-feature{
     position: relative;
     padding-top: 75px;
@@ -739,9 +744,6 @@ img {
     text-align: center;
 }
 
-.heading2wrap{
-    position: relative;
-}
 
 .bg-frame._2{
     right: 20%;
@@ -1017,3 +1019,50 @@ img {
     line-height: 140%;
 }
 
+
+/* ===================================== */
+/* SECTION 4 */
+/* ===================================== */
+
+.products-heading-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+
+.bg-frame._3 {
+    right: 32%;
+    z-index: 0;
+}
+
+.heading2.center.sec5 {
+    position: relative;
+    z-index: 1;
+    background-image: none;
+}
+
+.image51{
+    position: absolute;
+    top: 68%;
+    right: -10%;
+    left: auto;
+    bottom: auto;
+}
+
+.paragraph.pcenter {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-right: 22.5%;
+    padding-left: 22.5%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.paragraph.pcenter.sec5 {
+    margin-top: 0px;
+}
