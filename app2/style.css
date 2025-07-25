@@ -763,6 +763,16 @@ img {
     font-weight: 400;
 }
 
+/* ===================================== */
+/* SECTION 3 */
+/* ===================================== */
+
+.section3{
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;   
+}
+
 .div-block301 {
     position: relative;
     height: 571px;
@@ -875,5 +885,11 @@ img {
 }
 
 .interactive-img:hover {
-  transform: translate3d(-5px, -5px, 0px) scale3d(1.1, 1.1, 1) rotateZ(5deg);
+  transform: translate3d(-5px, -5px, 0px) scale3d(1.1, 1.1, 1) ;
 }
+
+
+/* ===================================== */
+/* SECTION 4 */
+/* ===================================== */
+
